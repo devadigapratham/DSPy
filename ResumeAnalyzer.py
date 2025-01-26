@@ -11,9 +11,7 @@ lm = dspy.LM(
 )
 dspy.configure(lm=lm)
 
-class ResumeAnalyzer(dspy.Module):
-    """Advanced resume analysis with multi-stage Chain of Thought processing"""
-    
+class ResumeAnalyzer(dspy.Module):    
     def __init__(self):
         super().__init__()
         
