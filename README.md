@@ -34,10 +34,10 @@ ollama pull llama3.2:3b
 3. **Try the apps**:
 ```bash
 # For movies  
-streamlit run movie_analysis.py  
+streamlit run movieReviewandRecommendation.py  
 
 # For resumes  
-streamlit run resume_evaluator.py  
+streamlit run ResumeAnalyzer.py  
 ```
 
 ## Notes 📌
